@@ -1,13 +1,7 @@
-import './App.css';
-import data from './assets/data.json';
-import Section from "./components/Section";
+import "./App.css";
+import data from "./assets/data.json"; // c'est deja une variable data, pas besoin de stockeer
 
 function App() {
-  console.log("ma data Netflix :", data);
-  return (
-    < Section />
-
-  );
+  return <p>Hello</p>;
 }
-
 export default App;

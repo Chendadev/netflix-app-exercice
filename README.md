@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!--
+  <div className="main">
+        <h1>{item.category}</h1>
+        {item.images.map((picture, num) => {
+          return <img src={picture} alt="movie" />;
+        })}
+      </div> -->
