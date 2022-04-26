@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-.section {
-  color: blue;
-}
-
 body {
   background-color: black;
   color: aliceblue;
@@ -11,5 +7,31 @@ body {
   width: 1920px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 10px;
+}
+
+.logo-container img {
+  width: 100px;
+  height: 100%;
+  margin-left: 50px;
+}
+
+.title-container {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.containerMovie {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  overflow-x: auto;
+}
+
+.containerMovie img {
+  height: 125px;
+  display: flex;
+  flex-direction: row;
 }
