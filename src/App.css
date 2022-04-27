@@ -27,7 +27,8 @@ body {
   flex-direction: row;
   margin-left: 50px;
   margin-bottom: 40px;
-  overflow-x: auto;
+  overflow-x: none;
+  overflow-y: auto;
 }
 
 .containerMovie img {
